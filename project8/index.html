@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Dz8</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container logo">
+
+            <div><img src="img/medicin.jpg" alt="logo"></div>
+            <div>
+                <h1>Wisdom Pet Medicine</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container formset">
+        <h3>+Add Appointment</h3>
+        <form>
+            <div>
+                <label class="blocklabel" for="petname">Pet Name</label>
+                <input class="blockinput" type="text" name="petname" placeholder="Pet Name" required>
+            </div>
+            <div>
+                <label class="blocklabel" for="petowner">Pet Owner</label>
+                <input class="blockinput" type="text" name="petowner" placeholder="Owner's Name">
+            </div>
+            <div class="blockdate">
+                <label class="blocklabel" for="dateuser">Date</label>
+                <input class="" type="date" name="dateuser" placeholder="">
+            </div>
+            <div class="blocktime">
+                <label class="blocklabel" for="timeuser">Time</label>
+                <input class="" type="time" name="timeuser" placeholder="">
+            </div>
+            <div>
+                <label class="blocklabel" for="notes">Apt. Notes</label>
+                <textarea class="blockinput" name="notes" cols="50" rows="3" placeholder="Appointment Notes"></textarea>
+            </div>
+            <div><button type="submit">Add Appointment</div>
+
+
+        </form>
+    </div>
+    <div class="container sort">
+        <div><input type="text" name="search" placeholder="Search"></div>
+        <div>
+            <select>
+                <option value="petowner">Pet Owner</option>
+                <option value="petname">Pet Name</option>
+            </select>
+        </div>
+
+    </div>
+    <ul class="container view"></ul>
+
+</body>
+
+</html>

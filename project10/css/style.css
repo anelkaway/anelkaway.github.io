@@ -1,0 +1,82 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    margin: 0;
+}
+#board {
+    /* background: yellowgreen; */
+    background-image: url(../img/board2.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: rgb(247, 94, 226);
+    /* background: rgb(247, 94, 226); */
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:  30px;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px black;
+    cursor: pointer;
+}
+.note {
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    background: rgb(247, 165, 250);
+    opacity: none;
+    top: 20px;
+    left: 20px;
+    box-shadow: 4px 4px 10px black;
+    cursor: pointer;
+}
+.text {
+    height: 220px;
+    width: 150px;
+    position: relative;
+    /* position: absolute; */
+    margin: 5px;
+    /* cursor: pointer; */
+    
+}
+.delete {
+    position: absolute;
+    margin: 0 0 0 15px;
+    background: red;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    
+    right: 10px;
+    top: 230px;
+    width: 20px;
+    height: 20px;
+    /* background: red; */
+    /* color: white; */
+    color: red;
+    text-align: center;
+    /* height: 25px;
+    width: 25px; */
+   
+}
