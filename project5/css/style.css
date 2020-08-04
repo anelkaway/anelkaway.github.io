@@ -1,0 +1,192 @@
+body {
+    color: darkgray;
+    background: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /* line-height: 1.2; */
+}
+/* .container {
+    width: 1000px;
+    margin: 0 auto;
+} */
+header {
+    background: black;
+    padding: 15px 0;
+}
+/* .img {
+    margin: 10px;
+} */
+.icon {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.icon i:not(:last-child) {
+    margin-right: 20px;
+}
+/* .navbar {
+   
+    padding: 5px 0;
+} */
+
+li.nav-item {
+    border-bottom: 1px solid transparent;
+}
+a.nav-link {
+    padding: 0;
+}
+
+li.nav-item:hover {
+    border-bottom: 1px solid #00bac6;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #00bac6;
+}
+
+.nav-custom form {
+    position: relative;
+    width: 300px;
+}
+.nav-custom input, .nav-custom button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.nav-custom input {
+    /* width: 100%; */
+    width: 300px;
+    height: 42px;
+    background: #fff;
+    padding-left: 15px;
+    border: 1px solid #dedede;
+}
+.nav-custom button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-custom button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #dedede;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-custom button:focus {
+    outline: 0;
+}
+
+
+
+
+.carousel-caption {
+    bottom: 40%;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.carousel-item {
+    height: 455px;
+    /* background: url("../img/header1.png") no-repeat bottom; */
+    background-size: cover;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border:white 5px solid;
+    border-radius: 50%;
+    background-color: black;
+}
+.info {
+    text-align: center;
+    padding: 15px;
+}
+.info h3 {
+    text-transform: uppercase;
+}
+.one1 span, .card-text span, .card-body h5 {
+    font-weight: 600;
+}
+.card-deck {
+    text-align: center;
+}
+.card-i i {
+    text-align: center;
+    transform: scale(5);
+    margin: 15px;
+    padding: 10px; 
+}
+.cardhover:hover .card {
+    transform: translateY(30px);
+}
+.cardhover:hover i {color: #00bac6;}
+.cardhover:hover .triangle{
+    opacity: 1;
+}
+
+.triangle {
+    width: 0;
+    margin: 0 0 -7px 88px;
+    opacity: 0;
+    transition: 0.5s;
+    border-top: transparent 70px solid;
+    border-right: transparent 70px solid;
+    border-bottom: #eee 70px solid;
+    border-left: transparent 70px solid;
+}
+.section-one {
+    background-color: #eee;
+    padding: 30px 0 0 0;
+}
+.section-one .card {
+    background: 0;
+}
+.section-two {
+    margin: 20px 0;
+}
+.img-4 {
+    margin-bottom: 30px;
+}
+
+.section-three {
+    padding: 20px 0;
+    background: #4c4b4a;
+    color: #c1c1c1;
+}
+.section-three h3 {
+    padding: 10px 0;
+    color: white;
+}
+.section-three span {
+    color: white;
+    font-size: 20px;
+}
+.col-3:first-child .card-icon {
+    padding-bottom: 20px;
+    border-bottom: #c1c1c1 1px solid;
+}
+.card-icon p {
+    width: 70%;
+    margin: 0;
+    padding: 0 15px;
+}
+.card-icon p, .card-icon i{
+    display: inline;
+}
+.card-icon i {
+    color:  #00bac6;
+}
+footer {
+    background: #252525;
+    color: wheat;
+    padding: 25px 0;
+}
